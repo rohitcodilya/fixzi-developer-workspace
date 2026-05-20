@@ -30,19 +30,42 @@ The frustrating part? These aren’t hard problems—just repetitive and time-co
 * **[JSON Validator](https://fixzi.ai/json-validator):** Fast, highly accurate linting.
 * **[Smart Fix](https://fixzi.ai/json-validator):** Repair invalid JSON structures instantly.
 * **[Formatter & Prettifier](https://fixzi.ai/json-validator):** Clean up minified, unreadable payloads.
-* **[JSON Validator](https://fixzi.ai/json-diff):** Visually compare two distinct JSON files side-by-side.
+* **[JSON Diff](https://fixzi.ai/json-diff):** Visually compare two distinct JSON files side-by-side.
 * **[Schema Tools](https://fixzi.ai/json-schema-generator):** Generate and validate against strict JSON Schemas.
+
+## 📸 Screenshots
+
+### JSON AI Fix
+![JSON AI Fix](https://fixzi.ai/fixzi_ai_json_fix.png)
+
+### XML AI Fix
+![XML AI Fix](https://fixzi.ai/fixzi_ai_xml_fix.png)
+
+### API Contract Monitoring
+![API Monitoring](https://fixzi.ai/fixzi_api_contracts.png)
+
+## 🧪 Real-world Use Cases
+
+- Debug broken API responses quickly  
+- Compare staging vs production payloads  
+- Validate large JSON/XML files instantly  
+- Detect API contract changes before users notice  
+- Fix invalid JSON without manual debugging  
 
 ### 🧩 XML Tools
 * **[XML Validator](https://fixzi.ai/xml-validator):** Verify structural layout correctness.
 * **[Formatter & Minifier](https://fixzi.ai/xml-validator):** Toggle layouts cleanly.
-* **[XML Diff](https://fixzi.ai/xml-validator):** Detect line-by-line differences in structural trees.
-* **[Data Conversion](https://fixzi.ai/xml-diff):** Effortless XML to JSON / CSV parsing.
+* **[XML Diff](https://fixzi.ai/xml-diff):** Detect line-by-line differences in structural trees.
+* **[Data Conversion](https://fixzi.ai/xml-validator):** Effortless XML to JSON / CSV parsing.
 
 ### 🔄 Data Converters
 * JSON ⇄ XML
 * JSON ⇄ CSV
 * JSON ⇄ YAML / TOML
+* XML ⇄ JSON
+* XML ⇄ CSV
+* XML ⇄ YAML / TOML
+
 
 ### 🔍 Smart Features
 * **Path Search:** Locate deep nesting coordinates inside large JSON/XML objects.
@@ -82,6 +105,16 @@ Imagine your application relies on an explicit payload key structure.
 
 Even though the server responds with a `200 OK` status code, **your frontend application will break** because the keys shifted. Fixzi monitors catch this structural drift automatically and alert your team instantly before it impacts production users.
 
+## ⚖️ Fixzi vs Other Tools
+
+| Feature | Fixzi | Typical Tools |
+|--------|------|--------------|
+| JSON Validation | ✅ | ✅ |
+| JSON Diff | ✅ | ⚠️ Limited |
+| XML Tools | ✅ | ⚠️ Partial |
+| API Monitoring | ✅ | ❌ |
+| All-in-one Workspace | ✅ | ❌ |
+
 ---
 
 ## 🚧 Why Not Just Use Existing Tools?
@@ -93,6 +126,17 @@ Most tools solve only one tiny fragment of the modern API workflow:
 * **API clients** are often bloated and too heavy for rapid diagnostic debugging.
 
 Fixzi synthesizes these utilities into a singular, cohesive development workspace.
+
+---
+
+## 💻 CLI (Coming Soon)
+
+A lightweight CLI version of Fixzi is planned:
+
+```bash
+fixzi validate file.json
+fixzi diff old.json new.json
+fixzi monitor https://api.example.com
 
 ---
 
