@@ -1,0 +1,8 @@
+{
+  "api_version": "1.0",
+  "status": "active",
+  "data": {
+    "user_id": 1024,
+    "permissions": ["admin", "developer"]
+  }, // Intentionally leaving a trailing comma or missing a bracket nearby makes a great test case
+}
