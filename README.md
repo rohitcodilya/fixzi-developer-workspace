@@ -28,16 +28,16 @@ The frustrating part? These aren’t hard problems—just repetitive and time-co
 
 ### 🧩 JSON Tools
 * **[JSON Validator](https://fixzi.ai/json-validator):** Fast, highly accurate linting.
-* **Smart Fix:** Repair invalid JSON structures instantly.
-* **Formatter & Prettifier:** Clean up minified, unreadable payloads.
-* **JSON Diff:** Visually compare two distinct JSON files side-by-side.
-* **Schema Tools:** Generate and validate against strict JSON Schemas.
+* **[Smart Fix](https://fixzi.ai/json-validator):** Repair invalid JSON structures instantly.
+* **[Formatter & Prettifier](https://fixzi.ai/json-validator):** Clean up minified, unreadable payloads.
+* **[JSON Validator](https://fixzi.ai/json-diff):** Visually compare two distinct JSON files side-by-side.
+* **[Schema Tools](https://fixzi.ai/json-schema-generator):** Generate and validate against strict JSON Schemas.
 
 ### 🧩 XML Tools
 * **[XML Validator](https://fixzi.ai/xml-validator):** Verify structural layout correctness.
-* **Formatter & Minifier:** Toggle layouts cleanly.
-* **XML Diff:** Detect line-by-line differences in structural trees.
-* **Data Conversion:** Effortless XML to JSON / CSV parsing.
+* **[Formatter & Minifier](https://fixzi.ai/xml-validator):** Toggle layouts cleanly.
+* **[XML Diff](https://fixzi.ai/xml-validator):** Detect line-by-line differences in structural trees.
+* **[Data Conversion](https://fixzi.ai/xml-diff):** Effortless XML to JSON / CSV parsing.
 
 ### 🔄 Data Converters
 * JSON ⇄ XML
@@ -49,7 +49,7 @@ The frustrating part? These aren’t hard problems—just repetitive and time-co
 * **Drag & Drop:** Quick upload handling for heavy structural payloads.
 * **Zero Overhead:** A distraction-free UI completely free of ads.
 
-### 📡 [API Contract Monitoring](https://fixzi.ai) (Core Feature)
+### 📡 [API Contract Monitoring](https://fixzi.ai/api-contracts) (Core Feature)
 * **Blueprint Snapshots:** Save your expected API payload patterns.
 * **Live Inspection:** Continuously monitor live endpoints in production.
 * **Drift Detection:** Instantly identify structural or response change drifts.
@@ -119,7 +119,3 @@ Fixzi synthesizes these utilities into a singular, cohesive development workspac
 * **Direct JSON Toolkit:** [https://fixzi.ai/json-validator](https://fixzi.ai/json-validator)
 * **Direct XML Toolkit:** [https://fixzi.ai/xml-validator](https://fixzi.ai/xml-validator)
 
-```
-
-
-```
