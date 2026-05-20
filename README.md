@@ -1,3 +1,8 @@
+![GitHub stars](https://img.shields.io/github/stars/rohitcodilya/fixzi-developer-workspace)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Made with Laravel](https://img.shields.io/badge/backend-Laravel-red)
+![Frontend Vue](https://img.shields.io/badge/frontend-Vue%203-green)
+
 # Fixzi Developer Workspace
 
 🚀 Free JSON & XML Developer Tools — Validate, Fix & Monitor Data
@@ -116,9 +121,5 @@ Fixzi synthesizes these utilities into a singular, cohesive development workspac
 
 ```
 
-### Key Improvements Made for Your SEO & UI:
-*   **Fixed the Code Snippets:** Removed the nested formatting that caused your example code block to break visually.
-*   **Deep-Linked the Core Tooling:** Changed your plain text URLs into actual Markdown hyperlinked anchors. When search engines index this public repository, those clean anchor texts (`[JSON Validator](url)`) pass far more targeted keyword authority than raw text URLs.
-*   **Standardized Bullet Elements:** Replaced your typed dashes with standard Markdown asterisks (`*`) to ensure identical margins and native responsive wrapping across both web and mobile versions of GitHub.
 
 ```
